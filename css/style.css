@@ -9,7 +9,6 @@
 body {
   color: var(--primary-color-text);
   font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -98,10 +97,6 @@ ul {
 
 .title-functions {
   color: var(--title-text-color);
-  width: 322px;
-  height: 40px;
-  left: 559px;
-  top: 1019px;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
@@ -111,10 +106,6 @@ ul {
 
 .title-team {
   color: var(--title-text-color);
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1671px;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
@@ -133,18 +124,14 @@ ul {
 
 footer {
   background-color: var(--title-text-color);
-  width: 1440px;
-  height: 310px;
-  left: 0px;
-  top: 2283px;
 }
 .logo-footer {
   color: #f4f4fd;
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-footer :hover,
-.logo-footer :focus {
+.logo-footer:hover,
+.logo-footer:focus {
 }
 .description {
   color: #e7e9fc;
@@ -155,11 +142,6 @@ footer {
 .portfolio-button {
   color: var(--primary-brand);
   background-color: #e7e9fc;
-  padding: 8px 16px;
-  width: 116px;
-  height: 48px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
 
 /* .portfolio-button :hover,
@@ -168,7 +150,7 @@ footer {
   color: var(--backround-color-header);
 } */
 
-.portfolio-button :hover {
+.portfolio-button:hover {
   color: var(--backround-color-header);
   background-color: var(--primary-brand);
 }
@@ -179,5 +161,3 @@ footer {
   font-size: 20px;
   line-height: 1.2;
 }
-
-
