@@ -5,6 +5,7 @@
   --backround-color-header: #ffffff;
   --primary-brand: #4d5ae5;
   --subtle-text: #8e8f99;
+  font-family: Roboto;
 }
 body {
   color: var(--primary-color-text);
